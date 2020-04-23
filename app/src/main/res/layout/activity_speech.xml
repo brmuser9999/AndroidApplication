@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".SpeechActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200000dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:src="@drawable/bg"></ImageView>
+
+    <TextView
+        android:id="@+id/textTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Press Mic to Record..."
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+    <ImageButton
+        android:id="@+id/voiceBtn"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@null"
+        android:src="@drawable/ic_mic"
+        android:scaleType="fitCenter"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/back"
+        android:layout_alignParentBottom="true"
+        android:text="Back To Menu...."
+        android:layout_marginBottom="70dp"
+        android:background="@drawable/button_round"
+        android:textColor="@android:color/white"
+        android:textSize="17dp"
+        android:onClick="Back"
+        android:textAllCaps="false"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+        <ImageView
+            android:layout_width="2000000dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp"
+            android:src="@drawable/bg"></ImageView>
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:background="@drawable/text_round"
+            android:ems="10"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="200dp"
+            android:hint="  Email"
+            android:inputType="textPersonName"
+             />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:ems="10"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="250dp"
+            android:background="@drawable/text_round"
+            android:inputType="textPassword"
+            android:hint="  password" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/text_round"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint=" Confirm password" />
+
+    <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/button"
+            android:layout_alignParentBottom="true"
+            android:text="LOGIN"
+            android:layout_marginBottom="60dp"
+
+            android:background="@drawable/button_round3"
+            android:textColor="@android:color/white"
+            android:textSize="17dp"
+
+            android:textAllCaps="false"
+            tools:ignore="OnClick" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="TRANSLENS"
+        android:textColor="#ffff"
+        android:textSize="30dp"
+        android:textStyle="bold|italic" />
+
+
+</RelativeLayout>
